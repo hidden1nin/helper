@@ -36,14 +36,6 @@
                 </includes>
             </resource>
             <resource>
-                <directory>${project.basedir}/src/main/resources/META-INF</directory>
-                <targetPath>./META-INF</targetPath>
-                <filtering>false</filtering>
-                <includes>
-                    <include>services/javax.annotation.processing.Processor</include>
-                </includes>
-            </resource>
-            <resource>
                 <directory>../</directory>
                 <filtering>false</filtering>
                 <includes>
